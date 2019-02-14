@@ -14,6 +14,19 @@ Python3 should be already installed. Then use pip (or pip3, if there is a confli
  pip install -r requirements.txt
  ```
 
+#### Command line Tool Examples
+
+```
+# Get new bitlink
+$ python main.py <put here link you want to short>
+  Your bitlink: <your bitlink>
+
+
+# Get conversion statistics
+$ python main.py <your bitlink>
+  Total clicks: <all time total clicks>
+```
+
 #### Project Goals
 
 The code is written for educational purposes on online-course for web-developers [dvmn.org](https://dvmn.org/).
